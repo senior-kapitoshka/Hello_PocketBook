@@ -9,7 +9,7 @@ set(CMAKE_SYSTEM_PROCESSOR armv7a)
 set(BUILD_SHARED_LIBS ON)
 
 
-set(TOOLCHAIN_PATH "/home/senior_kapitoshka/developpement/PBSDK")
+set(TOOLCHAIN_PATH "/home/.../.../PBSDK")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 set(CMAKE_FIND_ROOT_PATH "${TOOLCHAIN_PATH}/arm-obreey-linux-gnueabi/sysroot/")
