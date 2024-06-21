@@ -8,9 +8,9 @@ git clone https://github.com/pocketbook-free/SDK_481.git "$PBSDK"
 cd "$PBSDK"
 git checkout 5.12
 ```
-- в файле CmakeLists.txt указать в настройках расположение SDK:
+- в файле CmakeLists.txt указать в настройках расположение SDK в вашей файловой системе:
 ```
-set(TOOLCHAIN_PATH "/.../.../PBSDK")
+set(TOOLCHAIN_PATH "/home/..some_path.../PBSDK")
 ```
 - настроить Cmake:
 ```
